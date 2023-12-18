@@ -1,0 +1,1 @@
+npx esrun 2023/assignment-02/task-01.ts
