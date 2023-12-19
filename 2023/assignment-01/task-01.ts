@@ -14,7 +14,7 @@ function numberAssembler(input: string) {
   return 0
 }
 
-async function assignment1() {
+async function task1() {
   let theKey = 0
   const file = await open(process.cwd() + '/2023/assignment-01/input.txt')
   for await (const line of file.readLines()) {
@@ -25,4 +25,4 @@ async function assignment1() {
   return theKey
 }
 
-console.log(await assignment1())
+console.log(await task1())
